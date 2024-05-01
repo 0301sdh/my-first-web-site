@@ -3,51 +3,27 @@
 <head>
     <title> Welcome to dong's world </title>
     <meta charset="utf-8">
-    <style>
-        a{
-            color : black;
-            text-decoration: none;
-        }
-        #saw {
-            color : gray;
-        }
-        .active {
-            color : red;
-        }
-        h1{
-            font-size: 45px;
-            text-align: center;
-            border-bottom: 1px solid gray;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .custom-style {
-            border-right: 1px solid gray;
-            width : 100px;
-            margin : 0;
-            padding : 20px;
-        }
-        body{
-            margin : 0;
-        }
-    </style>
+    <link rel="stylesheet" href ="style.css">
 </head>
 
 <body>
     <h1><a href = "index.html">Welcome to dong's world </a></h1>
-    <ol class = "custom-style">
-        <li><a href = "1.html">Dong Hwan</a></li>
-        <li><a href = "2.html">Plan</a></li>
-        <li><a href = "3.html">Etc</a></li>
-    </ol>
-    <h2> dong's world 에 오신 걸 환영합니다. </h2>
-    <h3> 오늘의 노래 </h3>
-    <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2Cv3phvP8Ro?si=6n9KQeikHaqM1e-W" 
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </p>
+    <div id = "grid">
+        <ol class = "left">
+            <li><a href = "1.html">Dong Hwan</a></li>
+            <li><a href = "2.html">Plan</a></li>
+            <li><a href = "3.html">Etc</a></li>
+        </ol>
+        <div id ="article">
+            <h2> dong's world 에 오신 걸 환영합니다. </h2>
+            <h3> 오늘의 노래 </h3>
+            <p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2Cv3phvP8Ro?si=6n9KQeikHaqM1e-W" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </p>
+        </div>
+    </div>
     <p>
 
         <div id="disqus_thread"></div>
